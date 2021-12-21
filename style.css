@@ -21,6 +21,7 @@
   flex-direction: column;
   flex: 1;
 }
+
 .time-select button,
 .sound-picker button {
   color: white;
@@ -42,11 +43,21 @@
   border-radius: 50%;
 }
 .sound-picker button:nth-child(1) {
-  background: #4972a1;
+  background: #499BA1;
 }
+
+.sound-picker button:nth-child(1):hover {
+  background: #377479;
+}
+
 .sound-picker button:nth-child(2) {
   background: #a14f49;
 }
+
+.sound-picker button:nth-child(2):hover {
+  background: #8D4540;
+}
+
 .sound-picker button img {
   height: 100%;
 }
